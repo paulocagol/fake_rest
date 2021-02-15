@@ -1,31 +1,14 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "Post 1"
-      },
-      {
-        "id": 2,
-        "title": "Post 2"
-      },
-      {
-        "id": 3,
-        "title": "Post 3"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      },
-      {
-        "id": 2,
-        "body": "some comment",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
-  }
+    "logical_clock": 4,
+    "diffs": [
+        {
+            "id": "123",
+            "owner": "11",
+            "logical_clock": 1,
+            "utc_timestamp": 1604114123774,
+            "type": 0,
+            "model": "tasks",
+            "json_data": "{\"name\":\"a\",\"created_time\":\"1604114123774\",\"done\":false,\"id\":\"cff7dd5c-3251-478a-9840-21234a513123\"}"
+        }
+    ]
+}
